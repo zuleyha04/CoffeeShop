@@ -1,5 +1,5 @@
 :root {
-  --main-color: #cd9567;
+  --main-color: #4e3e3b;
   --bg-color: #e8b184;
   --text-color: #fff;
   --second-color: #000000;
@@ -9,6 +9,7 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(17rem, auto));
   gap: 1.5rem;
+  margin: 10rem 5rem;
 }
 
 .about-img img {
