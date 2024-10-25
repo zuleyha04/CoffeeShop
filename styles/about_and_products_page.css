@@ -1,0 +1,97 @@
+:root {
+  --main-color: #cd9567;
+  --bg-color: #e8b184;
+  --text-color: #fff;
+  --second-color: #000000;
+}
+
+.about {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(17rem, auto));
+  gap: 1.5rem;
+}
+
+.about-img img {
+  border-radius: 1rem;
+}
+
+.about-text h2 {
+  font-size: 1rem;
+}
+
+.about-text p {
+  margin: 0.5rem;
+}
+
+.heading {
+  text-align: center;
+}
+
+.heading h2 {
+  font-size: 1.8rem;
+}
+
+.products-container{
+  margin: 50px 200px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit , minmax(280px, auto));
+  gap: 1.5rem;
+}
+
+.box{
+  position: relative;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 2px solid var(--text-color);
+  border-radius: 1rem;
+}
+
+.box:hover{
+  border: 2px solid var(--main-color);
+  cursor: pointer;
+
+}
+
+.box img{
+  width: 100%;
+  height: 250px;
+  object-fit: contain;
+  object-position: center;
+  padding: 20px;
+  border-radius: 1rem;
+}
+
+.box h3{
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 0.5rem 0 0.5rem;
+}
+
+.box .content{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.box .content span{
+  padding: 0 1rem;
+  color: var(--text-color);
+  background: var(--main-color);
+  border-radius: 4px;
+  font-weight: 500;
+}
+
+.box .content a{
+padding: 0 1rem;
+color: var(--text-color);
+border: 2px solid var(--main-color);
+border-radius: 4px;
+font-weight: 500;
+}
+
+.box .content a:hover{
+  background: var(--main-color);
+  transition: all 0.15s linear;
+}

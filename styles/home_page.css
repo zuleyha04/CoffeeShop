@@ -1,0 +1,54 @@
+section {
+  padding: 50px 100px;
+}
+
+:root {
+  --main-color: #cd9567;
+  --bg-color: #e8b184;
+  --text-color: #fff;
+  --second-color: #000000;
+}
+
+.home {
+  width: 100%;
+  min-height: 100vh;
+  margin-top: 15px;
+  background: url(../images/pexels-marta-dzedyshko-1042863-2013798\ \(1\).jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(17rem, auto));
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.home-text{
+    text-align: right;
+}
+
+.home-text h1 {
+  font-size: 3.4rem;
+  color: var(--text-color);
+  letter-spacing: 1px;
+}
+
+.home-text p {
+  font-size: 0.92rem;
+  color: var(--text-color);
+  margin: 0.5rem 0 2rem;
+}
+
+.btn {
+  padding: 10px 40px;
+  color: var(--text-color);
+  background: #946d4c;
+  border: 1px solid var(--text-color);
+  font-weight: 500;
+  border-radius: 2rem;
+  transition: all 0.2s linear;
+}
+
+.btn:hover {
+  background: var(--text-color);
+  color: var(--second-color);
+}
