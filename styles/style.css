@@ -2,7 +2,7 @@
 @import url(home_page.css);
 @import url(about_and_products_page.css);
 @import url(customers_footer_page.css);
-@import url(bootstrap_part.css);
+@import url(sizing.css);
 
 :root {
     --main-color: #cc8431;
