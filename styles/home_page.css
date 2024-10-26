@@ -2,18 +2,11 @@ section {
   padding: 50px 100px;
 }
 
-:root {
-  --main-color: #4e3e3b;
-  --bg-color: #e8b184;
-  --text-color: #fff;
-  --second-color: #000000;
-}
-
 .home {
   width: 100%;
   min-height: 100vh;
   margin-top: 15px;
-  background: url(../images/pexels-marta-dzedyshko-1042863-2013798\ \(1\).jpg);
+  background: url(../images/home_img.jpg);
   background-repeat: no-repeat;
   background-size: contain;
   display: grid;
@@ -39,9 +32,9 @@ section {
 }
 
 .btn {
-  padding: 10px 40px;
+  padding: 10px 30px;
   color: var(--text-color);
-  background: #946d4c;
+  background: var(--main-color);
   border: 1px solid var(--text-color);
   font-weight: 500;
   border-radius: 2rem;

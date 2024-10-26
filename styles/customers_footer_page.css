@@ -1,23 +1,10 @@
-:root {
-  --main-color: #a47b59;
-  --bg-color: #e8b184;
-  --text-color: #fff;
-  --second-color: #000000;
-}
-
-/*   --main-color: #a27e54; 
-  --main-color: #af9c87;
-    --main-color: #908170;
-      --main-color: #3E2723;
-*/
-
 .customers {
   margin: 15px;
 }
 
 .customers-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, auto));
+  grid-template-columns: repeat(auto-fit, minmax(250px, auto));
   gap: 1.5rem;
   margin: 2rem;
 }
@@ -40,7 +27,7 @@
 }
 
 .customers-container .box img {
-  display: block;
+  display: flex;
   margin: auto;
   width: 90px;
   height: 90px;
@@ -77,11 +64,11 @@
 }
 
 .social-media a {
-  font-size: 24px;
+  font-size: 25px;
   padding: 10px;
   color: var(--text-color);
   background: var(--main-color);
-  border-radius: 3rem;
+  border-radius: 1rem;
 }
 
 .social-media a:hover {
@@ -100,12 +87,13 @@
 .contact span {
   display: flex;
   align-items: center;
-  column-gap: 1rem;
+  column-gap: 0.8rem;
 }
 
 .contact i {
   font-size: 20px;
   margin-right: 0.5rem;
+  color: var(--main-color);
 }
 
 .copyright {

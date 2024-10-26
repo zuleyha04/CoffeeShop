@@ -9,13 +9,6 @@
   font-family: "EB Garamond", serif;
 }
 
-:root {
-  --main-color: #cd9567;
-  --bg-color: #e8b184;
-  --text-color: #fff;
-  --second-color: #000000;
-}
-
 body {
 background-color: var(--second-color);
 color: #fff;
